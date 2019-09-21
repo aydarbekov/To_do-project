@@ -1,0 +1,100 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 19,
+  "fields": {
+    "description": "Task_5",
+    "full_descr": "qweqweqwe",
+    "status": "new",
+    "date": "2019-09-11"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 22,
+  "fields": {
+    "description": "Task_6",
+    "full_descr": "qweqweqweqwe",
+    "status": "new",
+    "date": null
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 23,
+  "fields": {
+    "description": "1111",
+    "full_descr": "qweqweqweqw",
+    "status": "in_progress",
+    "date": null
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 24,
+  "fields": {
+    "description": "qqqq",
+    "full_descr": null,
+    "status": "new",
+    "date": "2019-09-10"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 25,
+  "fields": {
+    "description": "1111",
+    "full_descr": "2222",
+    "status": "new",
+    "date": "2019-09-10"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 26,
+  "fields": {
+    "description": "",
+    "full_descr": "",
+    "status": "new",
+    "date": "2019-09-13"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 27,
+  "fields": {
+    "description": "",
+    "full_descr": "",
+    "status": "in_progress",
+    "date": "2019-09-15"
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 28,
+  "fields": {
+    "description": "qq",
+    "full_descr": "qq",
+    "status": "new",
+    "date": "2019-01-01"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$tbwhrdVamxK7$r1gCGMFB15cEbT93UTfOxY6A2J/bYlZh4zsKvpnBZtQ=",
+    "last_login": "2019-09-05T11:43:07.591Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-05T11:41:06.205Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
