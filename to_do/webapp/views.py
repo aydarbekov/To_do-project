@@ -3,8 +3,13 @@ from webapp.forms import TaskForm
 from webapp.models import Article
 
 def index_views(request, *args, **kwargs):
-    tasks = Article.objects.all()
-    return render(request, 'index.html', context={'tasks': tasks})
+    if request.method == 'GET':
+        tasks = Article.objects.all()
+        return render(request, 'index.html', context={'tasks': tasks})
+    elif request.method =='POST':
+        task_del = request.POST.getlist('del')
+        Article.objects.filter(pk__in=task_del).delete()
+        return redirect('index')
 
 def task_view(request, pk):
     task = get_object_or_404(Article, pk=pk)
